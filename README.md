@@ -54,7 +54,7 @@ A graphical representation of Accuracy, Precision, Recall, and F1-Score.
 ---
 
 ## 📂 Project Structure
-
+```bash
 FAKE-NEWS-DETECTOR/
 │
 ├── app.py                   # The Main Website (Streamlit App)
@@ -76,7 +76,7 @@ FAKE-NEWS-DETECTOR/
 └── images/                  # Visualizations
     ├── confusion_matrix.png
     └── bar_chart.png
-
+```
 ----
 ## Run using Docker
 
