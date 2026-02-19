@@ -76,3 +76,21 @@ FAKE-NEWS-DETECTOR/
 └── images/                  # Visualizations
     ├── confusion_matrix.png
     └── bar_chart.png
+
+
+## Run using Docker
+
+1. Install Docker
+2. Clone the repository
+3. Build the image:
+   docker build -t fake-news-app .
+4. Run the container:
+   docker run -p 8501:8501 fake-news-app
+5. Open:
+   http://localhost:8501
+
+## For Development 
+docker run -p 8501:8501 -v %cd%:/app fake-news-app
+
+
+### Note this app is limited to provide result only on the data set used to train the model. 
