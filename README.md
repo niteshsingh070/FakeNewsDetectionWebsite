@@ -77,7 +77,7 @@ FAKE-NEWS-DETECTOR/
     ├── confusion_matrix.png
     └── bar_chart.png
 
-
+----
 ## Run using Docker
 
 1. Install Docker
@@ -88,7 +88,7 @@ FAKE-NEWS-DETECTOR/
    docker run -p 8501:8501 fake-news-app
 5. Open:
    http://localhost:8501
-
+---
 ## For Development 
 docker run -p 8501:8501 -v %cd%:/app fake-news-app
 
