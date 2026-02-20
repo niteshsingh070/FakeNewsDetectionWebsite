@@ -86,7 +86,8 @@ FAKE-NEWS-DETECTOR/
    docker build -t fake-news-app .
 4. Run the container:
    docker run -p 8501:8501 fake-news-app
-5. Open:
+5. docker run -p 8501:8501 niteshsingh07/fake-news-app
+6. Open:
    http://localhost:8501
 ---
 ## For Development 
